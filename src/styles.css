@@ -1,0 +1,24 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body{
+  margin:0px;
+
+
+      
+      background:lightgray;
+
+  background-image: url('./assets/shopping.jpg');
+  background-size: cover;
+  background-position:  center center;
+  position : relative;
+  height:100%;
+  width:100%;
+  top:0;
+  bottom:0;
+  height:100vh;
+  z-index:-10;
+  background-color:rgba(0,0,0,0.5);
+display: block;
+opacity: 0.8;
+filter:alpha(opacity=50);
+}
+

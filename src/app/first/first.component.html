@@ -1,0 +1,38 @@
+<h1>{{title}}</h1>
+  <div id="container">
+<form [formGroup]="firstForm" (ngSubmit)="onSubmit()">
+<label>
+  First Name
+  <input type="text" formControlName="firstName" required>
+</label>
+
+<label>
+  last Name
+  <input type="text" formControlName="lastName" required>
+</label>
+
+<div formGroupName ="address">
+    <h3>Address</h3>
+<label>
+  state
+  <input type="text" formControlName="state" required>
+</label>
+
+<label>
+  city
+  <input type="text" formControlName="city" required>
+</label>
+
+<label>
+  Pincode
+  <input type="text" formControlName="pincode" required>
+</label>
+</div>
+
+<button type="submit" [disabled]=!firstForm.valid>submit</button>
+</form>
+<br>
+<button (click)="updateProfile()">Update Profile</button>
+</div>
+
+

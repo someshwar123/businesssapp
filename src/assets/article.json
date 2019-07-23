@@ -1,0 +1,8 @@
+{
+  "articles":[{ "id": 1, "title": "Shoes","description":"helllo" },
+   { "id": 2, "title": "Books","description":"helllo1" },
+   { "id": 3, "title" : "Clothes","description":"helllo2" },
+   { "id": 4, "title": "Games","description":"helllo3" }
+   ]
+  }
+
